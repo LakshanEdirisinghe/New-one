@@ -48,3 +48,8 @@ body{
 tr {
 	border: 2px;
 }
+
+.greenRow {
+
+	color: green;
+}
