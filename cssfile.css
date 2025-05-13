@@ -1,0 +1,50 @@
+body{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.main_Haddin , .main_Haddin_2 ,.main_Haddin_3, hr{
+	text-align: center;
+}
+.main_Haddin{
+	margin-bottom: -12px;
+	margin-top: -5px;
+	
+                                                
+}
+.main_Haddin_2{
+	margin-top: 21px;
+	color: #7f7a7a;
+}
+.main_Haddin_3{
+	border-top: 2px solid black; 
+	border-bottom:2px solid black ;
+	margin-top: -6px;
+	padding: 5px;
+	color: #7f7a7a;
+
+}
+
+/* making columns */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+	float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: auto;
+  border-right: 2px solid #eee6e6;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+tr {
+	border: 2px;
+}
